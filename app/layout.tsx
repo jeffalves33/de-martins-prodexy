@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'AgroGestão - Sistema de Gestão Rural',
+  title: 'De Martins',
   description: 'Sistema de gestão financeira e produtiva para propriedades rurais',
   generator: 'v0.app',
   icons: {
