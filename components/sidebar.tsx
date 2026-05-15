@@ -66,8 +66,8 @@ export function Sidebar() {
               <Leaf className="h-6 w-6 text-sidebar-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-lg font-semibold">AgroGestão</h1>
-              <p className="text-xs text-sidebar-foreground/70">De Martins</p>
+              <h1 className="text-lg font-semibold">De Martins</h1>
+              <p className="text-xs text-sidebar-foreground/70">Gestão Rural</p>
             </div>
           </div>
 
