@@ -197,24 +197,7 @@ export default function ConfiguracoesPage() {
               </CardContent>
             </Card>
 
-            {/* Informações do Sistema */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-base">Sobre o Sistema</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2 text-sm text-muted-foreground">
-                  <p>
-                    <strong>AgroGestão</strong> - Sistema de Gestão Rural
-                  </p>
-                  <p>Versão: 1.0.0 (Protótipo)</p>
-                  <p>
-                    Sistema desenvolvido para controle financeiro e produtivo de
-                    propriedades rurais.
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
+
           </div>
         </div>
       </main>
