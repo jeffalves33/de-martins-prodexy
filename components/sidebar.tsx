@@ -67,7 +67,7 @@ export function Sidebar() {
             </div>
             <div>
               <h1 className="text-lg font-semibold">AgroGestão</h1>
-              <p className="text-xs text-sidebar-foreground/70">Fazenda do João</p>
+              <p className="text-xs text-sidebar-foreground/70">De Martins</p>
             </div>
           </div>
 

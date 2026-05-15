@@ -25,14 +25,14 @@ export function StatCard({
 }: StatCardProps) {
   return (
     <Card className={cn("", className)}>
-      <CardHeader className="flex flex-row items-center justify-between pb-2">
-        <CardTitle className="text-sm font-medium text-muted-foreground">
+      <CardHeader className="flex flex-row items-start justify-between pb-2 gap-2">
+        <CardTitle className="text-sm font-medium text-muted-foreground leading-tight">
           {title}
         </CardTitle>
-        {icon && <div className="text-muted-foreground">{icon}</div>}
+        {icon && <div className="text-muted-foreground shrink-0">{icon}</div>}
       </CardHeader>
       <CardContent>
-        <div className="text-2xl font-bold">{value}</div>
+        <div className="text-xl font-bold truncate">{value}</div>
         {(description || trendValue) && (
           <div className="flex items-center gap-1 mt-1">
             {trend && (

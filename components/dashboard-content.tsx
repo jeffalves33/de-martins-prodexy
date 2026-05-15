@@ -107,7 +107,7 @@ export function DashboardContent() {
       </div>
 
       {/* Cards principais */}
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+      <div className="grid gap-4 grid-cols-2 md:grid-cols-3 xl:grid-cols-6">
         <StatCard
           title="Receita Total"
           value={formatarMoeda(receitaTotal)}
